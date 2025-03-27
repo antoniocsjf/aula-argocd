@@ -2,8 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata: 
   name: argocd
-  namespace: argocd
-  
+  namespace: argocd  
 spec: 
   project: default
   source:
@@ -11,7 +10,11 @@ spec:
     path: argocd
     targetRevision: HEAD
     directory: 
+<<<<<<< HEAD
        recurse: true
+=======
+      recurse: true
+>>>>>>> 5541864 (up app 2)
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
