@@ -10,8 +10,8 @@ spec:
     repoURL: https://github.com/antoniocsjf/aula-argocd.git
     path: argocd
     targetRevision: HEAD
-    # directory: 
-    #   recurse: true
+    directory: 
+       recurse: true
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
