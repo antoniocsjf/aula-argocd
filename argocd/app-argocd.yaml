@@ -9,12 +9,17 @@ spec:
     repoURL: https://github.com/antoniocsjf/aula-argocd.git
     path: argocd
     targetRevision: HEAD
+<<<<<<< HEAD
     directory: 
 <<<<<<< HEAD
        recurse: true
 =======
       recurse: true
 >>>>>>> 5541864 (up app 2)
+=======
+    # directory: 
+    #   recurse: true
+>>>>>>> 2dd2344 (remove apps)
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
